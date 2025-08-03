@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Transactions;
 using C44_G03_OOP05.Binding;
+using C44_G03_OOP05.Built_In_IO;
 using C44_G03_OOP05.Example01IO;
 using C44_G03_OOP05.ExampleTwoIO;
 using C44_G03_OOP05.Interface;
@@ -174,6 +175,51 @@ namespace C44_G03_OOP05
 
             #endregion
 
+            #region Built-in Interface
+
+            /*
+             * IEnumerable<T> : GetEnumrator() => Foreach
+             * 
+             * ICollection<T> : [Add] Method For Adding, Remove => Remove()
+             * 
+             * IList<T> : Convert Any Type to Index
+             * 
+             * IComparable<T> : CompareTo()
+             * 
+             * IDisposable() : Dispose() => Connection of Database
+             * 
+             * ICloneble() : Clone()
+             * 
+             * IComparer<T> : Compare()
+             * 
+             * IReadOnly Collection<T> : Count(), GetEnumerator()
+             * 
+             */
+
+            #region ICloneable
+
+            //User user01 = new User() { Id = 1, Name = "Ahmed", Salary=5000 };
+            //User user02 = new User() { Id = 2, Name = "Mai", Salary = 7000 };
+
+            //Console.WriteLine($"User 01 : {user01.GetHashCode()}"); // 43942917
+            //Console.WriteLine($"User 02 : {user02.GetHashCode()}"); // 59941933
+            //Console.WriteLine(user01);
+            //Console.WriteLine(user02);
+            //Console.WriteLine("=================================");
+            //Console.WriteLine("=================================");
+            //user02 = (User) user01.Clone();
+
+            //Console.WriteLine($"User 01 : {user01.GetHashCode()}"); // 43942917
+            //Console.WriteLine($"User 02 : {user02.GetHashCode()}"); // 2606490
+            //Console.WriteLine("=========================");
+            //Console.WriteLine(user01);
+            //Console.WriteLine(user02);
+
+            #endregion
+
+
+
+            #endregion
 
         }
     }
