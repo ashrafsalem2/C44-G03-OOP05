@@ -1,6 +1,7 @@
 ﻿using Assessment.Q01;
 using Assessment.Q02;
 using Assessment.Q03;
+using Assessment.Q04;
 
 namespace Assessment
 {
@@ -47,7 +48,7 @@ namespace Assessment
             #endregion
 
             #region Q03
-            
+
             //INotificationService mailNotification = new EmailNotificationService();
             //mailNotification.SendNotification("Hossam", "Hello Hossam How Are You :)");
 
@@ -57,6 +58,28 @@ namespace Assessment
             //INotificationService pushNotification = new PushNotificationService();
             //pushNotification.SendNotification("Hossam", "Hello Hossam How Are You :)");
 
+
+            #endregion
+
+            #region Q04
+
+            //Console.Write("Hello What is Your Name: ");
+            //string name = Console.ReadLine() ?? "";
+            
+            //Console.Write("Input Your Type (Regular, Premium, or Guest): ");
+            //string type = Console.ReadLine() ?? "";
+            
+            //Console.Write("Pleas Enter Quantity of Products: ");
+            //int.TryParse(Console.ReadLine(), out int quantity);
+
+            //Console.Write("Pleas Enter Price of Products: ");
+            //decimal.TryParse(Console.ReadLine(), out decimal price);
+
+
+            //Console.WriteLine("==============================================");
+
+            //UserType user = new UserType(name, type, quantity, price);
+            //user.GetDiscount();
 
             #endregion
 
