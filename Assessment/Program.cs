@@ -1,4 +1,5 @@
 ﻿using Assessment.Q01;
+using Assessment.Q02;
 
 namespace Assessment
 {
@@ -22,6 +23,28 @@ namespace Assessment
             //circle.DisplayShapeInfo();
 
             #endregion
+
+            #region Q02
+
+            //BasicAuthenticationService user1 = new BasicAuthenticationService("Hossam", 123);
+            //user1.AuthenticateUser();
+            //user1.AuthorizeUser();
+
+            //Console.WriteLine("==============================================");
+
+            //BasicAuthenticationService user2 = new BasicAuthenticationService("Ahmed", 123);
+            //user2.AuthenticateUser();
+            //user2.AuthorizeUser();
+
+            //Console.WriteLine("==============================================");
+
+            //BasicAuthenticationService user3 = new BasicAuthenticationService("Ahmed", 456);
+            //user3.AuthenticateUser();
+            //user3.AuthorizeUser();
+
+
+            #endregion
+
 
         }
     }
