@@ -1,6 +1,8 @@
-﻿using System.Transactions;
+﻿using System.Net.Http.Headers;
+using System.Transactions;
 using C44_G03_OOP05.Binding;
 using C44_G03_OOP05.Example01IO;
+using C44_G03_OOP05.ExampleTwoIO;
 using C44_G03_OOP05.Interface;
 
 namespace C44_G03_OOP05
@@ -145,6 +147,33 @@ namespace C44_G03_OOP05
             //SeriesTwo S2 = new SeriesTwo();
             //SeriesToPrintFiveNum(S2);
             #endregion
+
+            #region Ex 02 Interface
+
+            //Car car = new Car();
+            //car.Speed = 300;
+            //car.Forward();
+            //car.Backward();
+            //car.Left();
+            //car.Right();
+
+            //Airplane airplane = new Airplane();
+
+            //airplane.Speed = 600;
+            //airplane.Forward();
+            //airplane.Backward();
+            //airplane.Left();
+            //airplane.Right();
+
+            //IMoveOnAir moveAir = new Airplane();
+
+            //IMoveOnGround ground = new Car();
+            //IMoveOnGround ground1 = new Airplane();
+
+            //ground1.Backward();
+
+            #endregion
+
 
         }
     }
