@@ -217,9 +217,41 @@ namespace C44_G03_OOP05
 
             #endregion
 
+            #region IComparable()  
 
+            //int[] numbers = { 6, 3, 1, 2, 5, 4 };
+
+
+            //User[] users = 
+            //{
+            //    new User() { Id = 10, Name = "Hossam", Salary = 10000},          
+            //    new User() { Id = 20, Name = "Noor", Salary = 7000},          
+            //    new User() { Id = 30, Name = "Ali", Salary = 15000},          
+            //    new User() { Id = 40, Name = "Mohamed", Salary = 9000}          
+            //};
+
+
+            //Array.Sort(users);
+
+            //for (int i = 0;i < users.Length;i++)
+            //    Console.WriteLine(users[i]);
 
             #endregion
+
+            #region IComparer
+
+            // Sort Based on Name
+
+            //Array.Sort(users, new UserNameComparer());
+            //for (int i = 0; i < users.Length; i++)
+            //    Console.WriteLine(users[i]);
+                
+            
+            #endregion
+
+            #endregion
+
+
 
         }
     }
