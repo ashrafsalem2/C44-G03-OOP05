@@ -1,5 +1,6 @@
 ﻿using System.Transactions;
 using C44_G03_OOP05.Binding;
+using C44_G03_OOP05.Example01IO;
 using C44_G03_OOP05.Interface;
 
 namespace C44_G03_OOP05
@@ -29,6 +30,28 @@ namespace C44_G03_OOP05
             {
                 emp.Func01();
                 emp.Func02();
+            }
+        }
+        #endregion
+
+        #region Ex 01 Interface
+
+
+        static void SeriesToPrintFiveNum(ISeries series) 
+        {
+            if (series is not null)
+            {
+                for (int i = 0; i <= 5; i++)
+                {
+                    Console.WriteLine(series.Current);
+                    series.GetNextValue();
+                }
+
+                series.ResetSeries();
+            }
+            else 
+            {
+                return;
             }
         }
         #endregion
@@ -105,8 +128,24 @@ namespace C44_G03_OOP05
             //type.NyNethod();
 
             //type.Print();
-            
+
             #endregion
+
+            #region Ex 01 Interface
+            /*
+             *  Series
+             *  Property To Carry CurrentValue
+             *  Method To GetNextValue
+             *  Method To Reset
+             */
+
+            //SeriesOne S1 = new SeriesOne();
+            //SeriesToPrintFiveNum(S1);
+
+            //SeriesTwo S2 = new SeriesTwo();
+            //SeriesToPrintFiveNum(S2);
+            #endregion
+
         }
     }
 }
