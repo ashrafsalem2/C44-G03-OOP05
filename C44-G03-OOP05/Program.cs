@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Transactions;
+using C44_G03_OOP05.Abstraction;
 using C44_G03_OOP05.Binding;
 using C44_G03_OOP05.Built_In_IO;
 using C44_G03_OOP05.Example01IO;
@@ -245,13 +246,38 @@ namespace C44_G03_OOP05
             //Array.Sort(users, new UserNameComparer());
             //for (int i = 0; i < users.Length; i++)
             //    Console.WriteLine(users[i]);
-                
+
+
+            #endregion
+
+            #endregion
+
+            #region Abstraction
+
+            //Shape shape = new Shape();
+            // Invalid => You Cannot Take Object FromAbstract Class
+
+            //Rectangle rect = new Rectangle() {Dim01 = 5, Dim02 = 10 };
             
-            #endregion
+            //decimal area = rect.CalcArea();
+
+            //Console.WriteLine($"Area = {area}");
+
+            //decimal rectPer = rect.Perimeter;
+
+            //Console.WriteLine($"RecPer : {rectPer}");
+
+            //Console.WriteLine("=====================================");
+            //Console.WriteLine("=====================================");
+
+            //Circle C = new Circle(10);
+
+            //Console.WriteLine($"Area = {C.CalcArea()}");
+
+            //decimal per = C.Perimeter;
+            //Console.WriteLine($"Perimeter: {per}");
 
             #endregion
-
-
 
         }
     }
