@@ -1,5 +1,6 @@
 ﻿using Assessment.Q01;
 using Assessment.Q02;
+using Assessment.Q03;
 
 namespace Assessment
 {
@@ -41,6 +42,20 @@ namespace Assessment
             //BasicAuthenticationService user3 = new BasicAuthenticationService("Ahmed", 456);
             //user3.AuthenticateUser();
             //user3.AuthorizeUser();
+
+
+            #endregion
+
+            #region Q03
+            
+            //INotificationService mailNotification = new EmailNotificationService();
+            //mailNotification.SendNotification("Hossam", "Hello Hossam How Are You :)");
+
+            //INotificationService smsNotification = new SmsNotificationService();
+            //smsNotification.SendNotification("Hossam", "Hello Hossam How Are You :)");
+
+            //INotificationService pushNotification = new PushNotificationService();
+            //pushNotification.SendNotification("Hossam", "Hello Hossam How Are You :)");
 
 
             #endregion
